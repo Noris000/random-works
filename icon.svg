@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 110 120" class="css-1j8o68f">
+    <defs id="SvgjsDefs62883">
+        <linearGradient id="SvgjsLinearGradient62890">
+            <stop id="SvgjsStop62891" stop-color="#616161" offset="0"/>
+            <stop id="SvgjsStop62892" stop-color="#e6e7e8" offset="0.5"/>
+            <stop id="SvgjsStop62893" stop-color="#616161" offset="1"/>
+        </linearGradient>
+        <linearGradient id="SvgjsLinearGradient62894">
+            <stop id="SvgjsStop62895" stop-color="#616161" offset="0"/>
+            <stop id="SvgjsStop62896" stop-color="#e6e7e8" offset="0.5"/>
+            <stop id="SvgjsStop62897" stop-color="#616161" offset="1"/>
+        </linearGradient>
+    </defs>
+    <g id="SvgjsG62884" featurekey="symbolContainer" transform="matrix(1,0,0,1,0,0)" fill="url(#SvgjsLinearGradient62890)">
+        <rect width="100%" height="100%" rx="8"/>
+    </g>
+    <g id="SvgjsG62885" featurekey="monogramFeature-0" transform="matrix(2.1339848219101487,0,0,2.1339848219101487,20.004797810762074,-19.536499935922585)" fill="#222831">
+        <path d="M0.66 16.560000000000002 l0 0 c4.08 -2.46 12.9 13.5 14.46 16.92 c0.48 0.96 1.68 1.38 2.64 0.9 c1.02 -0.42 1.5 -1.62 1.02 -2.64 c0 -0.06 -3.84 -8.34 -9.84 -15.36 c9.06 -0.12 22.56 -0.24 22.62 -0.18 c1.86 1.74 1.38 41.76 0.18 42.9 c-3.72 3.18 -12.42 -13.32 -13.86 -16.32 c-0.48 -1.02 -1.68 -1.44 -2.7 -0.96 c-0.96 0.42 -1.44 1.62 -0.96 2.64 c0 0.06 3.84 8.34 9.9 15.36 c-9.06 0.36 -23.04 0.24 -23.58 -0.72 c-1.2 -2.22 -0.06 -42.48 0.12 -42.54 z"/>
+    </g>
+</svg>

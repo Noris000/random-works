@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans:600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.sidebar{
+  position: fixed;
+  width: 240px;
+  z-index: 999;
+  left: -240px;
+  height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 100);
+  background: #1e1e1e;
+  box-shadow: 2px 0 9px 0px #000000;
+  transition: all .5s ease;
+  overflow-y: scroll;
+}
+.sidebar header{
+  font-size: 28px;
+  color: white;
+  line-height: 70px;
+  text-align: center;
+  background: #8f5e5e;
+  box-shadow: 0 0 5px 0px #8f5e5e;
+  /* box-shadow: inset -10px 10px 30px -10px #000000; */
+  user-select: none;
+  font-family: 'Montserrat', sans-serif;
+  position: sticky;
+  top: 0;
+}
+.sidebar header a{ 
+  color: white;
+}
+.sidebar header a:hover{ 
+  color: wheat;
+  text-decoration: underline;
+}
+.sidebar a.a{
+  display: block;
+  height: 65px;
+  width: 100%;
+  color: white;
+  line-height: 65px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  border-top: 1px solid rgba(255,255,255,.1);
+  border-left: 5px solid transparent;
+  font-family: 'Open Sans', sans-serif;
+  transition: all .5s ease;
+}
+a.a.active,a.a:hover{
+  border-left: 5px solid #b93632;
+  color: #b93632;
+}
+.sidebar a.a i{
+  font-size: 23px;
+  margin-right: 16px;
+}
+.sidebar a.a span{
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+#check{
+  display: none;
+}
+label #btn,label #cancel{
+  position: absolute;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #262626;
+  margin: 15px 30px;
+  font-size: 29px;
+  background: #262626;
+  padding: 0px 12px 0px 12px;
+  box-shadow: 0 0 15px 0px #ffffff;
+  text-align: center;
+  line-height: 45px;
+  transition: all .5s ease;
+}
+label #cancel{
+  opacity: 0;
+  visibility: hidden;
+}
+#check:checked ~ .sidebar{
+  left: 0;
+}
+#check:checked ~ label #btn{
+  margin-left: 245px;
+  opacity: 0;
+  visibility: hidden;
+}
+#check:checked ~ label #cancel{
+  margin-left: 268px;
+  opacity: 1;
+  visibility: visible;
+}
